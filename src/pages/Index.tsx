@@ -64,7 +64,7 @@ const Index = () => {
         {/* Cat image */}
         <div className="absolute bottom-0 right-0 w-[500px] h-[500px]">
           <img 
-            src="https://cdn.poehali.dev/projects/cc13d582-ec34-4251-bd1c-c628027cfe45/files/02d2eb5c-2be8-4dae-b0f7-6c31631b1563.jpg" 
+            src="https://cdn.poehali.dev/projects/cc13d582-ec34-4251-bd1c-c628027cfe45/files/58cd0ac8-4b9e-4cad-9c3d-231485c92bff.jpg" 
             alt="Maine Coon" 
             className="w-full h-full object-cover rounded-tl-full border-8 border-white opacity-90"
           />
