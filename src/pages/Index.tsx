@@ -4,8 +4,8 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-neutral-800 flex items-center justify-center p-4">
       <div 
-        className="relative bg-[#D4C4B0] w-[1080px] h-[1080px] overflow-hidden"
-        style={{ aspectRatio: '1/1' }}
+        className="relative bg-[#D4C4B0] w-[1080px] h-[1920px] overflow-hidden"
+        style={{ aspectRatio: '9/16' }}
       >
         
         {/* Decorative paw prints */}
@@ -38,31 +38,31 @@ const Index = () => {
         </div>
 
         {/* Main title */}
-        <div className="absolute top-56 left-0 right-0 text-center px-16">
-          <h2 className="text-5xl mb-4 font-light text-black tracking-wide">19 ноября 2025</h2>
-          <h1 className="text-7xl font-bold mb-4 text-black tracking-tight leading-tight">
+        <div className="absolute top-[400px] left-0 right-0 text-center px-16">
+          <h2 className="text-6xl mb-6 font-light text-black tracking-wide">19 ноября 2025</h2>
+          <h1 className="text-8xl font-bold mb-6 text-black tracking-tight leading-tight">
             МАСТЕР КЛАСС
           </h1>
-          <h2 className="text-6xl font-light text-black tracking-wide">
+          <h2 className="text-7xl font-light text-black tracking-wide">
             «САЛОННЫЙ ГРУМИНГ
           </h2>
-          <h2 className="text-6xl font-light text-black tracking-wide">
+          <h2 className="text-7xl font-light text-black tracking-wide">
             КОШЕК»
           </h2>
         </div>
 
         {/* Program list */}
-        <div className="absolute top-[580px] left-16 text-black space-y-3">
-          <p className="text-3xl font-light">·теория</p>
-          <p className="text-3xl font-light">·показательная</p>
-          <p className="text-3xl font-light pl-2">модель</p>
-          <p className="text-3xl font-light">·практическая часть</p>
-          <p className="text-3xl font-light pl-2">на моделях</p>
-          <p className="text-3xl font-light">·лайфхаки от преподавателя</p>
+        <div className="absolute top-[1050px] left-16 text-black space-y-4">
+          <p className="text-4xl font-light">·теория</p>
+          <p className="text-4xl font-light">·показательная</p>
+          <p className="text-4xl font-light pl-2">модель</p>
+          <p className="text-4xl font-light">·практическая часть</p>
+          <p className="text-4xl font-light pl-2">на моделях</p>
+          <p className="text-4xl font-light">·лайфхаки от преподавателя</p>
         </div>
 
         {/* Cat image */}
-        <div className="absolute bottom-0 right-0 w-[500px] h-[500px]">
+        <div className="absolute bottom-0 right-0 w-[600px] h-[600px]">
           <img 
             src="https://cdn.poehali.dev/projects/cc13d582-ec34-4251-bd1c-c628027cfe45/files/58cd0ac8-4b9e-4cad-9c3d-231485c92bff.jpg" 
             alt="Maine Coon" 
@@ -71,23 +71,23 @@ const Index = () => {
         </div>
 
         {/* Logo */}
-        <div className="absolute bottom-16 left-16">
-          <div className="flex items-center space-x-4 mb-4">
-            <div className="w-32 h-32 bg-[#2D2420] rounded-full flex items-center justify-center">
-              <Icon name="Scissors" size={60} className="text-[#D4C4B0]" />
+        <div className="absolute bottom-24 left-16">
+          <div className="flex items-center space-x-4 mb-6">
+            <div className="w-40 h-40 bg-[#2D2420] rounded-full flex items-center justify-center">
+              <Icon name="Scissors" size={70} className="text-[#D4C4B0]" />
             </div>
           </div>
-          <div className="text-6xl font-bold text-[#2D2420] tracking-wider" style={{ fontFamily: 'serif' }}>
+          <div className="text-7xl font-bold text-[#2D2420] tracking-wider" style={{ fontFamily: 'serif' }}>
             GROOM
           </div>
-          <div className="text-6xl font-bold text-[#2D2420] tracking-wider" style={{ fontFamily: 'serif' }}>
+          <div className="text-7xl font-bold text-[#2D2420] tracking-wider" style={{ fontFamily: 'serif' }}>
             PAWS
           </div>
         </div>
 
         {/* Decorative sparkles */}
-        <div className="absolute top-64 right-48 text-white text-4xl opacity-60">✨</div>
-        <div className="absolute top-[480px] right-80 text-white text-3xl opacity-60">✨</div>
+        <div className="absolute top-[350px] right-48 text-white text-5xl opacity-60">✨</div>
+        <div className="absolute top-[900px] right-80 text-white text-4xl opacity-60">✨</div>
 
       </div>
 
