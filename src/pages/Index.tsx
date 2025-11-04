@@ -39,7 +39,7 @@ const Index = () => {
 
         {/* Main title */}
         <div className="absolute top-56 left-0 right-0 text-center px-16">
-          <h2 className="text-5xl mb-4 font-light text-black tracking-wide">24 июля 2025</h2>
+          <h2 className="text-5xl mb-4 font-light text-black tracking-wide">19 ноября 2025</h2>
           <h1 className="text-7xl font-bold mb-4 text-black tracking-tight leading-tight">
             МАСТЕР КЛАСС
           </h1>
